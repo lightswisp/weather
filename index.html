@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script defer src="./scripts/main.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <li><a href="/" class="main_page"><img src="./images/logo.svg"></a><a href="/">1743.com</a></li>
+            <li><a href="/" class="title">WEATHER APP</a></li>
+        </div>
+        <div class="body">
+            <div class="body_content">
+                <nav class="body_header">
+                    <li><p id="city">City</p></li>
+                    <li><p>Now <span id="time"></span></p></li>
+                </nav>
+
+                <nav class="body_body">
+                    <li><p id="temp">+0<img id="temp_img" width="110px"></p></li>
+                </nav>
+
+                <nav class="body_footer">
+                    <nav class="data_1">
+                        <li><p>Pressure <br><span id="pressure">0 мм</span></p></li>
+                        <li><p>Wind speed <br><span id="wind_speed">0 м/с</span></p></li>
+                        <li><p>Humidity <br><span id="humidity">0%</span></p></li>
+                    </nav>
+                    <nav class="data_2">
+                        <li><p id="condition">null</p></li>
+                        <li><p id="wind_direction">null</p></li>
+                    </nav>
+                    <nav class="data_3">
+                        <li><p>Feels like temperature: <span id="feelslike">+0</span></p></li>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+        <div class="footer">
+            <li><p>Made with <img src="./images/heart.gif" width="20px"> using <a href="https://www.weatherapi.com/">weatherapi.com</a></li>
+            <li><p>By: <a href="https://github.com/lightswisp">@lightswisp</a></p></li>
+        </div>
+    </div>
+</body>
+</html>
